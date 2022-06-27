@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_day" label="Day" language="en" table="x_820057_studentda_student">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_day</element>
+            <help/>
+            <hint/>
+            <label>Day</label>
+            <language>en</language>
+            <name>x_820057_studentda_student</name>
+            <plural>Days</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-20 07:31:32</sys_created_on>
+            <sys_id>8f9985c02f9011109da449e72799b6e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Day</sys_name>
+            <sys_package display_value="StudentDatabase" source="x_820057_studentda">67330ae62f3b81109da449e72799b699</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="StudentDatabase">67330ae62f3b81109da449e72799b699</sys_scope>
+            <sys_update_name>sys_documentation_x_820057_studentda_student_u_day_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-20 07:31:32</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

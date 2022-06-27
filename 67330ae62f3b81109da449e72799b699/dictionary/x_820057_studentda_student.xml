@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Student" max_length="40" name="x_820057_studentda_student" sizeclass="5" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="RollNo" mandatory="true" max_length="15" name="rollno" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="yes" label="Is Current Adress same as Permenant address" mandatory="true" max_length="40" name="u_check" type="string">
+            <choice>
+                <element inactive_on_update="false" label="yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="andhra pradesh" label="College State" mandatory="true" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Andhra Pradesh" sequence="0" value="andhra pradesh"/>
+                <element inactive="true" inactive_on_update="true" label="Other" sequence="0" value="other"/>
+                <element inactive_on_update="false" label="Telangana" sequence="1" value="telangana"/>
+                <element inactive_on_update="false" label="Maharastra" sequence="2" value="maharastra"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="College Name" max_length="40" name="u_college_name" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Date Of Birth" mandatory="true" max_length="40" name="u_dateofbirth" type="glide_date"/>
+        <element label="Day" max_length="40" name="u_day" type="integer"/>
+        <element label="Social" mandatory="true" max_length="15" name="u_decimal_12" type="decimal"/>
+        <element label="Door No" mandatory="true" max_length="15" name="u_doorno" type="decimal"/>
+        <element label="Door No" mandatory="true" max_length="40" name="u_door_no" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Day" max_length="40" name="u_d_day" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="7" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="8" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="9" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="10" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="11" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="12" sequence="11" value="12"/>
+                <element inactive_on_update="false" label="13" sequence="12" value="13"/>
+                <element inactive_on_update="false" label="14" sequence="13" value="14"/>
+                <element inactive_on_update="false" label="15" sequence="14" value="15"/>
+                <element inactive_on_update="false" label="16" sequence="15" value="16"/>
+                <element inactive_on_update="false" label="17" sequence="16" value="17"/>
+                <element inactive_on_update="false" label="18" sequence="17" value="18"/>
+                <element inactive_on_update="false" label="19" sequence="18" value="19"/>
+                <element inactive_on_update="false" label="20" sequence="19" value="20"/>
+                <element inactive_on_update="false" label="21" sequence="20" value="21"/>
+                <element inactive_on_update="false" label="22" sequence="21" value="22"/>
+                <element inactive_on_update="false" label="23" sequence="22" value="23"/>
+                <element inactive_on_update="false" label="24" sequence="23" value="24"/>
+                <element inactive_on_update="false" label="25" sequence="24" value="25"/>
+                <element inactive_on_update="false" label="26" sequence="25" value="26"/>
+                <element inactive_on_update="false" label="27" sequence="26" value="27"/>
+                <element inactive_on_update="false" label="28" sequence="27" value="28"/>
+                <element inactive_on_update="false" label="29" sequence="28" value="29"/>
+                <element inactive_on_update="false" label="30" sequence="29" value="30"/>
+                <element inactive_on_update="false" label="31" sequence="30" value="31"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Month" max_length="40" name="u_d_month" type="string">
+            <choice>
+                <element inactive_on_update="false" label="January" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Febrauary" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="March" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="April" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="May" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="June" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="July" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="August" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="September" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="October" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="November" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="December" sequence="11" value="12"/>
+            </choice>
+        </element>
+        <element label="English" mandatory="true" max_length="15" name="u_english" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Father Name" max_length="40" name="u_father_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="male" label="Gender" mandatory="true" max_length="40" name="u_gender" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
+                <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="Female" sequence="1" value="female"/>
+                <element inactive_on_update="false" label="Prefer Not To Say" sequence="2" value="prefer not to say"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Date Of Birth" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="LandMark" max_length="40" name="u_landmark" type="string"/>
+        <element label="Language" mandatory="true" max_length="15" name="u_language" type="decimal"/>
+        <element label="Maths" mandatory="true" max_length="15" name="u_maths" type="decimal"/>
+        <element label="Month" max_length="40" name="u_month" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Mother Name" max_length="40" name="u_mother_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
+        <element label="Percentage" max_length="15" name="u_percentage" read_only="true" type="decimal"/>
+        <element label="Science" mandatory="true" max_length="15" name="u_science" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Street Name" mandatory="true" max_length="40" name="u_street_name" type="string"/>
+        <element label="Total Marks" mandatory="true" max_length="15" name="u_total_marks" type="decimal"/>
+        <element label="ZipCode" mandatory="true" max_length="40" name="u_zipcode" type="integer"/>
+        <element label="ZipCode" max_length="40" name="u_zip_code" type="integer"/>
+    </element>
+</database>

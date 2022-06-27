@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_doorno" label="Door No" language="en" table="x_820057_studentda_student">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_doorno</element>
+            <help/>
+            <hint/>
+            <label>Door No</label>
+            <language>en</language>
+            <name>x_820057_studentda_student</name>
+            <plural>Door Nos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-23 06:44:55</sys_created_on>
+            <sys_id>e1bbdc812f5011109da449e72799b64c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Door No</sys_name>
+            <sys_package display_value="StudentDatabase" source="x_820057_studentda">67330ae62f3b81109da449e72799b699</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="StudentDatabase">67330ae62f3b81109da449e72799b699</sys_scope>
+            <sys_update_name>sys_documentation_x_820057_studentda_student_u_doorno_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-23 06:44:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

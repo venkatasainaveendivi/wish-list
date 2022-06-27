@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-03 09:40:31</sys_created_on>
+        <sys_id>ba144e2a2f3b81109da449e72799b6d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_820057_studentda_student.x_820057_studentda.student</sys_name>
+        <sys_package display_value="StudentDatabase" source="x_820057_studentda">67330ae62f3b81109da449e72799b699</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="StudentDatabase">67330ae62f3b81109da449e72799b699</sys_scope>
+        <sys_security_acl display_value="x_820057_studentda_student">36144e2a2f3b81109da449e72799b6d3</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ba144e2a2f3b81109da449e72799b6d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-03 09:40:31</sys_updated_on>
+        <sys_user_role display_value="x_820057_studentda.student" name="x_820057_studentda.student">9d53022a2f3b81109da449e72799b605</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

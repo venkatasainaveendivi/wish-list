@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_college_name</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>OtherOfCollegeName</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      g_form.setVisible('u_other',false);
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	if(newValue == 4)
+		{
+			g_form.setVisible('u_other',true);
+			g_form.setMandatory('u_other',true);
+			g_form.setReadOnly('u_other',false);
+			g_form.showFieldMsg('u_other','please specify','info');
+		}
+	else
+		{
+			g_form.setReadOnly('u_other',true);
+			g_form.setMandatory('u_other',false);
+			g_form.hideFieldMsg('u_other');
+		}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-03 11:26:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>304b9e6e2f7b81109da449e72799b6b8</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>OtherOfCollegeName</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="StudentDatabase" source="x_820057_studentda">67330ae62f3b81109da449e72799b699</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="StudentDatabase">67330ae62f3b81109da449e72799b699</sys_scope>
+        <sys_update_name>sys_script_client_304b9e6e2f7b81109da449e72799b6b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-03 11:56:23</sys_updated_on>
+        <table>x_820057_studentda_student</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

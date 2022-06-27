@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_820057_studentda.student" name="x_820057_studentda.student">9d53022a2f3b81109da449e72799b605</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-03 09:37:09</sys_created_on>
+        <sys_id>9d53022a2f3b81109da449e72799b607</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9d53022a2f3b81109da449e72799b605</sys_name>
+        <sys_package display_value="StudentDatabase" source="x_820057_studentda">67330ae62f3b81109da449e72799b699</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="StudentDatabase">67330ae62f3b81109da449e72799b699</sys_scope>
+        <sys_update_name>sys_embedded_help_role_9d53022a2f3b81109da449e72799b607</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-03 09:37:09</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
